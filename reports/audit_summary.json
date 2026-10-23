@@ -1,0 +1,16 @@
+{
+  "baseline": {
+    "top_error_cases_queued": 50,
+    "cases_at_least_90pct_confident": 0,
+    "cases_with_2_to_1_annotation_vote": 10,
+    "median_model_confidence": 0.6065949972091489,
+    "human_review_completed": false
+  },
+  "wangchanberta": {
+    "top_error_cases_queued": 50,
+    "cases_at_least_90pct_confident": 0,
+    "cases_with_2_to_1_annotation_vote": 9,
+    "median_model_confidence": 0.604244664311409,
+    "human_review_completed": false
+  }
+}

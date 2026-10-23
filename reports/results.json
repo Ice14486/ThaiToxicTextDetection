@@ -1,0 +1,42 @@
+{
+  "baseline": {
+    "macro_f1": 0.7323832933613303,
+    "toxic_precision": 0.806282722513089,
+    "toxic_recall": 0.77,
+    "toxic_f1": 0.7877237851662404,
+    "pr_auc": 0.8829454129907477,
+    "threshold": 0.5270326650064651,
+    "confusion_matrix": [
+      [
+        87,
+        37
+      ],
+      [
+        46,
+        154
+      ]
+    ],
+    "train_seconds": 0.7447248329408467,
+    "test_inference_ms_per_item": 0.1542456297169405
+  },
+  "wangchanberta": {
+    "macro_f1": 0.6866813186813187,
+    "toxic_precision": 0.7885714285714286,
+    "toxic_recall": 0.69,
+    "toxic_f1": 0.736,
+    "pr_auc": 0.8505059761555113,
+    "threshold": 0.5453066229820251,
+    "confusion_matrix": [
+      [
+        87,
+        37
+      ],
+      [
+        62,
+        138
+      ]
+    ],
+    "train_seconds": 344.94081404199824,
+    "test_inference_ms_per_item": 9.518980323825675
+  }
+}
